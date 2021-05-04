@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0EF04E264186020044CF15 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EF04D264186020044CF15 /* QuestionViewController.swift */; };
+		2F0EF050264186100044CF15 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EF04F264186100044CF15 /* ResultsViewController.swift */; };
 		2F4B29C8264024FB00B692B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B29C7264024FB00B692B0 /* AppDelegate.swift */; };
 		2F4B29CA264024FB00B692B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B29C9264024FB00B692B0 /* SceneDelegate.swift */; };
 		2F4B29CC264024FB00B692B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B29CB264024FB00B692B0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0EF04D264186020044CF15 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2F0EF04F264186100044CF15 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		2F4B29C4264024FB00B692B0 /* Christian_personalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Christian_personalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4B29C7264024FB00B692B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4B29C9264024FB00B692B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				2F4B29C9264024FB00B692B0 /* SceneDelegate.swift */,
 				2F4B29CB264024FB00B692B0 /* ViewController.swift */,
 				2F4B29CD264024FB00B692B0 /* Main.storyboard */,
+				2F0EF04D264186020044CF15 /* QuestionViewController.swift */,
+				2F0EF04F264186100044CF15 /* ResultsViewController.swift */,
 				2F4B29D0264024FF00B692B0 /* Assets.xcassets */,
 				2F4B29D2264024FF00B692B0 /* LaunchScreen.storyboard */,
 				2F4B29D5264024FF00B692B0 /* Info.plist */,
@@ -139,6 +145,8 @@
 			files = (
 				2F4B29CC264024FB00B692B0 /* ViewController.swift in Sources */,
 				2F4B29C8264024FB00B692B0 /* AppDelegate.swift in Sources */,
+				2F0EF04E264186020044CF15 /* QuestionViewController.swift in Sources */,
+				2F0EF050264186100044CF15 /* ResultsViewController.swift in Sources */,
 				2F4B29CA264024FB00B692B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
