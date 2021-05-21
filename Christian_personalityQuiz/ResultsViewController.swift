@@ -14,8 +14,16 @@ class ResultsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    var responses: [Answer] = []
+    init?(coder: NSCoder, responses: [Answer]){
+        self.responses = responses
+            super.init(coder: coder)
+    }
     
-
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     /*
     // MARK: - Navigation
 
